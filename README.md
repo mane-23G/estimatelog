@@ -1,8 +1,3 @@
-Interactively estimate log
-  Purpose        : To use MPI broadcast and MPI reduce
-  Usage          : mpirun --use-hwthread-cpus estimate_log <log_number> <num_intervals>
-  Build with     : mpicc -Wall -o estimat_log estimate_log.c -lm
-
 # estimatelog
 This is a parallel algorithm that computes the natural logarithm fucntion by numberical approximation. Numerical integration is used to compute the area under the curve, using the rectangle rule. 
 
